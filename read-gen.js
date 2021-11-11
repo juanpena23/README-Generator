@@ -42,7 +42,7 @@ inquirer.prompt(
             type: 'list',
             message:"what license did you used?",
             name: 'license',
-            choices: ('The MIT License', 'The GPL License', 'Apache LIcense', 'GNU License', 'N/A'),
+            choices: ['The MIT License', 'The GPL License', 'Apache LIcense', 'GNU License', 'N/A'],
             ValidityState: (value)=> {if(value){return true} else{return 'i need a value to continue'}}
         },
         {
