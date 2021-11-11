@@ -91,7 +91,7 @@ ${license}
 
 #Contact
 *GitHub: ${git}
-*E-mail: ${email}` 
+*E-mail: ${email}`;
 // function to create the file 
 createNewFile(title,template);
 }
