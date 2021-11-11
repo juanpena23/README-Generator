@@ -63,7 +63,7 @@ inquirer.prompt(
     installation,
     instructions,
     credits,
-    licnese,
+    license,
     git,
     email,
     usage,
@@ -87,7 +87,7 @@ ${instructions}
 ## Credits
 ${credits}
 ## License
-${licnese}
+${license}
 
 #Contact
 *GitHub: ${git}
