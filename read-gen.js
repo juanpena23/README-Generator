@@ -8,32 +8,32 @@ inquirer.prompt(
     [
         {
             type: 'input',
-            message="What's the Project title?",
+            message:"What's the Project title?",
             name:'title',
             //check that the user privided a value 
             ValidityState: (value)=>{if(value){return true} else{return 'i need a value to continue'}}
         },
         {
             type: 'input',
-            message="how do you install your app?",
+            message:"how do you install your app?",
             name: 'installation',
             ValidityState: (value)=> {if(value){return true} else{return 'i need a value to continue'}}
         },
         {
             type: 'input',
-            message="instructions to follow?",
+            message:"instructions to follow?",
             name: "instructions",
             ValidityState: (value)=> {if(value){return true} else{return 'i need a value to continue'}}
         },
         {
             type: 'input',
-            message="any credits?",
+            message:"any credits?",
             name: 'credits',
             ValidityState: (value)=> {if(value){return true} else{return 'i need a value to continue'}}
         },
         {
             type: 'input',
-            message="how do you use your app?",
+            message:"how do you use your app?",
             name: 'usage',
             ValidityState: (value)=> {if(value){return true} else{return 'i need a value to continue'}}
         },
