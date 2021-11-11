@@ -1,7 +1,6 @@
 {
   "name": "Readme-gen",
   "version": "1.0.0",
-  "description": "",
   "main": "read-gen.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,5 +10,15 @@
   "license": "ISC",
   "dependencies": {
     "inquirer": "^8.2.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juanpena23/README-Generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/juanpena23/README-Generator/issues"
+  },
+  "homepage": "https://github.com/juanpena23/README-Generator#readme",
+  "description": ""
 }
