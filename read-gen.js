@@ -55,7 +55,7 @@ inquirer.prompt(
             type: 'input',
             message: 'E-mail:',
             name:'email',
-            ValidityState: (value)=> {if(value){return true} else{return 'i need a value to continue'}}
+            ValidityState: (value)=> {if(value){return true} else{return 'i need a value to continue'}},
         }
     ]
 ) .then(({
